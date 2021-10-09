@@ -38,8 +38,6 @@
     border-radius: 50px 0 50px 0;
     text-align: center;
     background-color: rgb(94, 12, 94);
-    resize: both;
-    overflow: scroll;
 }
 
 .image {
