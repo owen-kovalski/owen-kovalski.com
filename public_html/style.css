@@ -29,7 +29,7 @@
 
 .navbar-brand {
     background-size: initial;
-    background-image: /img/logo1.png
+    background-image: "/img/logo1.png";
     border: dotted 2px rgb(94, 12, 94);
     border-radius: 10% / 50%;
     text-align: center;
