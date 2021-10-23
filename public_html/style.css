@@ -44,3 +44,7 @@
     border-radius: 100px 100px 100px 100px;
     object-fit: cover;
 }
+
+.lead {
+    text-align: center;
+}
