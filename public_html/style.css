@@ -31,8 +31,9 @@
     background-image:"/img/logo1.png";
     border:dotted 2px rgb(94, 12, 94);
     border-radius:10% / 100%;
-    text-align:center;
     box-sizing:content-box;
+    margin-left: 10%;
+    margin-right:10%;
 }
 
 .carousel-inner {
@@ -40,6 +41,13 @@
     border:solid 1px;
     border-color:purple;
     border-radius:100px 0px 100px 0px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.carousel-item {
+    box-sizing: border-box;
 }
 
 .img-fluid {
@@ -48,7 +56,7 @@
 }
 
 .display-2 {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .lead {
