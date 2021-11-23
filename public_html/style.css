@@ -57,6 +57,7 @@
 
 .display-2 {
     box-sizing: content-box;
+    height: auto;
 }
 
 .lead {
