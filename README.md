@@ -2,7 +2,7 @@
 
 // This is a project website that is currently under development.
 
-<!--   CHANGELOG
+//   CHANGELOG   \\
 
 ***12/29/2021***
 * modified server structure to accomodate php structure and finalized structuring.
@@ -15,4 +15,4 @@
 *Initiated migration to PHP website from HTML.
 
 *Restructure of folders to reflect PHP migration.
--->
+
