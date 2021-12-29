@@ -10,9 +10,9 @@
 
 ***12/04/2021***
 
-*Modified headers to show accurate active page.
+* Modified headers to show accurate active page.
 
-*Initiated migration to PHP website from HTML.
+* Initiated migration to PHP website from HTML.
 
-*Restructure of folders to reflect PHP migration.
+* Restructure of folders to reflect PHP migration.
 
