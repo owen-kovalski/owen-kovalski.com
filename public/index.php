@@ -16,11 +16,11 @@
 		<div class="carousel-item active">
 			<img class="img-fluid" src="img/background2_1.jpg">
 			<div class="carousel-caption">
-				<h1 class="display-2">Website</h1>
+				<!--<h1 class="display-2">Website</h1>
 				<h3>Complete Website Layout</h3>
 				<button type="button" class="btn btn-outline-light btn-lg">VIEW
 				DEMO</button>
-				<button type="button" class="btn btn-primary btn-lg">Get Started</button>
+				<button type="button" class="btn btn-primary btn-lg">Get Started</button>-->
 			</div>
 		</div>
 		<div class="carousel-item">
