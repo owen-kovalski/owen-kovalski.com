@@ -27,7 +27,7 @@
 				<hr class="light">
 				<h5>Contact</h5>
 				<p></p>
-				<p>email@hhemail.com</p>
+				<p>contact@owen-kovalski.com</p>
 				<p></p>
 				<p></p>
 			</div>
