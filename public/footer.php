@@ -39,6 +39,8 @@
 	</div>
 </footer>
 
+<?php printf( __( '&copy; %s. All Rights Reserved.', 'text-domain', '2021&ndash' )); echo date(‘Y’); ?>
+
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
 AOS.init();
