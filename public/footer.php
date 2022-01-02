@@ -33,8 +33,7 @@
 			</div>
 			<div class="col-12">
 				<hr class="light-100">
-				<h5>2021&copy; owen-kovalski.com</h5>
-				<?php printf( __( '&copy; %s. All Rights Reserved.', 'text-domain', '2021&ndash' )); echo date(‘Y’); ?>
+				<h5>Copyright &copy; 2021-<script>document.write(new Date().getFullYear())</script> owen-kovalski.com All Rights Reserved.</h5>
 			</div>
 		</div>
 	</div>
