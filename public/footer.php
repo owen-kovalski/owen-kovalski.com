@@ -37,6 +37,7 @@
 			</div>
 		</div>
 	</div>
+	<?php printf( __( '&copy; %s. All Rights Reserved.', 'text-domain', '2021&ndash' )); echo date(‘Y’); ?>
 </footer>
 
 <?php printf( __( '&copy; %s. All Rights Reserved.', 'text-domain', '2021&ndash' )); echo date(‘Y’); ?>
