@@ -34,13 +34,11 @@
 			<div class="col-12">
 				<hr class="light-100">
 				<h5>2021&copy; owen-kovalski.com</h5>
+				<?php printf( __( '&copy; %s. All Rights Reserved.', 'text-domain', '2021&ndash' )); echo date(‘Y’); ?>
 			</div>
 		</div>
 	</div>
-	<?php printf( __( '&copy; %s. All Rights Reserved.', 'text-domain', '2021&ndash' )); echo date(‘Y’); ?>
 </footer>
-
-<?php printf( __( '&copy; %s. All Rights Reserved.', 'text-domain', '2021&ndash' )); echo date(‘Y’); ?>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
