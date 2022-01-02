@@ -4,8 +4,11 @@
 
 \\   CHANGELOG   \\
 
+***01/01/2022***
+* Modified copyright footer to auto update year range with current year.
+
 ***12/29/2021***
-* modified server structure to accomodate php structure and finalized structuring.
+* Modified server structure to accomodate php structure and finalized structuring.
 
 
 ***12/04/2021***
