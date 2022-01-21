@@ -8,8 +8,8 @@
 		data-aos-delay="50"
 		data-aos-duration="1000">
 	<div class="row introduction">
-		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-			<h1 class="intro">Welcome to my website</h1>
+		<div class="col-md-9 col-lg-9 col-xl-10">
+			<p class="intro">Welcome to my website</p>
 		</div>
 	</div>
 </div>
