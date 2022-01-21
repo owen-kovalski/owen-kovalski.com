@@ -76,4 +76,7 @@
 .introduction {
     text-align: center;
     text-size-adjust: 110%;
+    width: auto;
+    height: 300px;
+    box-sizing: content-box;
 }
