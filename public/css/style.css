@@ -81,7 +81,5 @@
 }
 
 .intro-head {
-    color:green;
-    font-size:50px;
-    background-color:black;
+    border-radius:10% / 100%;
 }
