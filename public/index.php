@@ -8,7 +8,7 @@
 		data-aos-delay="50"
 		data-aos-duration="1000">
 	<div class="intro-head">
-		<h1 style="font-size: 50; color: green; background-color: black; text-align: center;">Welcome to my website</h1> 
+		<h1 style="font-size: 50; color: green; background-color: black; text-align: center;border: solid 1px;border-radius:10% / 100%;width: 80%;margin-left: 10%;margin-right: 10%;">Welcome to my website</h1> 
 	</div>
 </div>
 
