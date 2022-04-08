@@ -1,4 +1,5 @@
 <!--- Connect -->
+<hr>
 <div class="container-fluid padding">
 	<div class="row text-center padding">
 		<div class="col-12">
