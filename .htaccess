@@ -1,4 +1,10 @@
 RewriteEngine On
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\.owen-kovalski\.com [NC]
+
+RewriteRule "^(.*)"              "https://www.example.org/index.html" [R=301,L,QSA]
+RewriteRule "^(.*)\.ht$"         "index.php?nav=$1 [NC,L,QSA,CO=RewriteRule;01;https://owen-kovalski.com;30/;SameSite=None;Secure]
+RewriteRule "^(.*)\.htm$"        "index.php?nav=$1 [NC,L,QSA,CO=RewriteRule;02;https://owen-kovalski.com;30/;SameSite=None;Secure]
+RewriteRule "^(.*)\.html$"       "index.php?nav=$1 [NC,L,QSA,CO=RewriteRule;03;https://owen-kovalski.com;30/;SameSite=None;Secure]
+
 RewriteRule ^(.*)$ https://owen-kovalski.com/$1 [L,R=301]
