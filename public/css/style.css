@@ -79,11 +79,3 @@
     height: 300px;
     box-sizing: content-box;
 }
-
-.intro-head {
-    border: solid 1px;
-    border-radius:10% / 100%;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
