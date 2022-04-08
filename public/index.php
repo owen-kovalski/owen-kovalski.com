@@ -10,7 +10,7 @@
 		data-aos-delay="50"
 		data-aos-duration="1000">
 	<div class="intro-head">
-		<h1 style="font-size: 80px; color: green; background-color: black; text-align: center;border: solid 1px;border-radius:10% / 100%;width: 80%;margin-left: 10%;margin-right: 10%;">Welcome to my website</h1> 
+		<h1 style="font-size: 100px; color: green; background-color: black; text-align: center;border: solid 1px;border-radius:10% / 100%;width: 80%;margin-left: 10%;margin-right: 10%;">Welcome to my website</h1> 
 	</div>
 </div>
 
@@ -56,7 +56,7 @@
 		data-aos-duration="1000">
 	<div class="row jumbotron">
 		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-			<p style="text-align:center;font-size:20px;">Website development has to start somewhere. Start with a domain name!</p>
+			<p style="text-align: center; font-size: 80px;">Website development has to start somewhere. Start with a domain name!</p>
         <hr>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
