@@ -3,8 +3,21 @@
 // This is a project website that is currently under development.
 
 \\   CHANGELOG   \\
-***01/20/2022***
+
+***04/08/2022***
+--CSS--
+* Added formatting to intro title
+
 --INDEX--
+* Added intro title.
+
+***01/20/2022***
+--CSS--
+* Added .introduction style, text aligned, text size increase
+
+--INDEX--
+* Removed <br> tags and added <hr> tag
+
 * Added h1 and container tags
 
 * Created "Introduction" container
