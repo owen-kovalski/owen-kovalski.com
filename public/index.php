@@ -1,6 +1,5 @@
 <?php
     include_once 'header.php';
-	include_once 'style.css';
 ?>
 
 <!-- Introduction -->
@@ -9,7 +8,7 @@
 		data-aos-delay="50"
 		data-aos-duration="1000">
 	<div class="intro-head">
-		<h1>Welcome to my website</h1> 
+		<h1 style="font-size:50;color:green;background-color:black;">Welcome to my website</h1> 
 	</div>
 </div>
 
