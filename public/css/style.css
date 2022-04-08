@@ -71,7 +71,6 @@
 
 .introduction {
     text-align: center;
-    width: auto;
-    height: 300px;
     box-sizing: content-box;
+    border-radius:10% / 100%;
 }
