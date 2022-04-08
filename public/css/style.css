@@ -71,5 +71,5 @@
 
 .introduction {
     text-align: center;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
