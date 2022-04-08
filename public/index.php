@@ -17,7 +17,7 @@
 		background-color:black;
 		text-align:center;
 		border:solid 1px green;
-		border-radius:40%;
+		border-radius:100px 100px 100px 0px;
 		width: 80%;
 		height: 80%;
 		margin-left: 10%;
