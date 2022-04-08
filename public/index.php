@@ -10,12 +10,34 @@
 		data-aos-delay="50"
 		data-aos-duration="1000">
 	<div class="introduction">
-		<h1 style="font-size: 50px; color: green; background-color: black; text-align: center;border: solid 1px green;border-radius:40% 0% 40% 0%;width: 80%;height: 80%;margin-left: 10%;margin-right: 10%;padding-top: 10%; padding-left: 10%; padding-right: 10%; padding-bottom: 10%;"> 
+		<h1 
+		style="
+		font-size:50px;
+		color:green;
+		background-color:black;
+		text-align:center;
+		border:solid 1px green;
+		border-radius:40%;
+		width: 80%;
+		height: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-top: 10%;
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-bottom: 10%;
+		"> 
 		Welcome To My Website 
 		</h1> 
 		<br>
 		<br>
-		<p style="font-size: 20px; margin-left: 10%; margin-right: 10%;"> 
+		<p 
+		style="
+		font-size: 20px;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-top:1%;
+		"> 
 			This website is a personal project of mine. I am currently utilizing it as a way to learn about website development, as well as, showcase skills and projects that I am working on. 
 		</p>
 	</div>
