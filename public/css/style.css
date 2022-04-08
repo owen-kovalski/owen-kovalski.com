@@ -82,9 +82,6 @@
 
 .intro-head {
     text-align:center;
-    font-size: 50;
-    color: green;
-    background-color: black;
     box-sizing: content-box;
     display:flexbox;
     border: solid 1px;
