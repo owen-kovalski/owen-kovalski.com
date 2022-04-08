@@ -9,7 +9,7 @@
 		data-aos-duration="1000">
 	<div class="row introduction">
 		<div class="col-md-9 col-lg-9 col-xl-10">
-			<h1 style="color:green;font-size:50px;background-color:black;">Welcome to my website</h1> 
+			<h1 class="intro-head">Welcome to my website</h1> 
 		</div>
 	</div>
 </div>
