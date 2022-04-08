@@ -82,6 +82,7 @@
 
 .intro-head {
     text-align:center;
+    box-sizing: content-box;
     border: solid 1px;
     border-radius:10% / 100%;
     width: 80%;
