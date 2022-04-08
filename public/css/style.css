@@ -60,10 +60,6 @@
     height: auto;
 }
 
-.lead {
-    text-align:center;
-}
-
 .jumbotron {
     box-sizing:content-box;
     display:flexbox;
