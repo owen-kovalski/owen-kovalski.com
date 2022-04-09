@@ -34,7 +34,13 @@
 			</div>
 			<div class="col-12">
 				<hr class="light-100">
-				<h5>Copyright &copy; 2021-<script>document.write(new Date().getFullYear())</script> owen-kovalski.com All Rights Reserved.</h5>
+				<h5>
+				Copyright &copy; 2021-<script>document.write(new Date().getFullYear())</script> 
+				<br>
+				owen-kovalski.com 
+				<br>
+				All Rights Reserved.
+			</h5>
 			</div>
 		</div>
 	</div>
