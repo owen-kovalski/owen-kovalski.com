@@ -41,6 +41,7 @@
 				<br>
 				All Rights Reserved.
 				<br>
+				<hr>
 			</h5>
 			</div>
 		</div>
