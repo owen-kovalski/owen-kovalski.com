@@ -40,6 +40,7 @@
 				owen-kovalski.com 
 				<br>
 				All Rights Reserved.
+				<br>
 			</h5>
 			</div>
 		</div>
