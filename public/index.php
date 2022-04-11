@@ -90,7 +90,7 @@
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
 			<a href="https://domains.google/"><button type="button" class="btn btn-outline-secondary
-			btn-lg">Get Your Domain Name</button></a>
+			btn-lg" style="text-align: center;">Get Your Domain Name</button></a>
 		</div>
 	</div>
 </div>
