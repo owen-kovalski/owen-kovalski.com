@@ -29,11 +29,19 @@
 				<h5 style="
 				color: green;
 				background-color: black;
+				width: 20%;
+
 				">
 				Contact
 				</h5>
 				<p></p>
-				<p>contact@owen-kovalski.com</p>
+				<p style="
+				color: green;
+				background-color: black;
+				width: 20%;
+				">
+				contact@owen-kovalski.com
+				</p>
 				<p></p>
 				<p></p>
 			</div>
