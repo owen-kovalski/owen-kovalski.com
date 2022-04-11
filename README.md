@@ -4,12 +4,19 @@
 
 \\   CHANGELOG   \\
 
+***04/11/2022***
+--HEADER--
+* Removed Services page.
+* Added Projects page.
+
 ***04/08/2022***
 --CSS--
 * Added formatting to intro title
 
 --INDEX--
 * Added intro title.
+* Added small description under intro title.
+* Added Background and font changed to title.
 
 ***01/20/2022***
 --CSS--
