@@ -26,7 +26,12 @@
 		<div class="row text-center">
 			<div class="col-12">
 				<hr class="light">
-				<h5>Contact</h5>
+				<h5 style="
+				color: green;
+				background-color: black;
+				">
+				Contact
+				</h5>
 				<p></p>
 				<p>contact@owen-kovalski.com</p>
 				<p></p>
