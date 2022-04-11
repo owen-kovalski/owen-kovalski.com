@@ -30,7 +30,7 @@
 				color: green;
 				background-color: black;
 				width: 20%;
-
+				text-align: center;
 				">
 				Contact
 				</h5>
@@ -39,6 +39,7 @@
 				color: green;
 				background-color: black;
 				width: 20%;
+				text-align: center;
 				">
 				contact@owen-kovalski.com
 				</p>
