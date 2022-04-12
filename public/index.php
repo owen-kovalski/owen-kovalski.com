@@ -1,5 +1,6 @@
 <?php
     include_once 'header.php';
+	include_once '/css/style.css';
 ?>
 
 <!-- Introduction -->
@@ -20,12 +21,9 @@
 		border-radius:100px 100px 100px 0px;
 		width: 80%;
 		height: 80%;
-		margin-left: 10%;
+		margin-left: 9%;
 		margin-right: 10%;
-		padding-top: 10%;
-		padding-left: 10%;
-		padding-right: 10%;
-		padding-bottom: 10%;
+		padding: 10%;
 	">
 		<h1> 
 		Welcome To My Website 
