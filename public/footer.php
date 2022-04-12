@@ -31,7 +31,7 @@
 			background-color: black;
 			width: 15%;
 			text-align: center;
-			padding: 0% 10% 10% 1%;
+			padding: 0% 2% 2% 2%;
 			margin: 0% 0% 0% 43%;
 			border: solid 5px green;
 			border-radius: 100px;
