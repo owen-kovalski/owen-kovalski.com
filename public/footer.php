@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <!--- Connect -->
 <hr>
 <div class="container-fluid padding">
