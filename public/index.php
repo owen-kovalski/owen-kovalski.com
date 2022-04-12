@@ -32,7 +32,11 @@
 		</h1> 
 		<br>
 		<br>
-		<p> 
+		<p 
+		style="
+		font-size: 20px;
+		padding-top:1%;
+		"> 
 			This website is a personal project of mine. I am currently utilizing it as a way to learn about website development, as well as, showcase skills and projects that I am working on. 
 		</p>
 	</div>
