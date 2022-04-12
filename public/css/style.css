@@ -70,6 +70,15 @@
 }
 
 .introduction {
-    text-align: center;
-    box-sizing: border-box;
+    font-size:50px;
+    color:green;
+    background-color:black;
+    text-align:center;
+    border:solid 5px green;
+    border-radius:100px 100px 100px 0px;
+    width: 80%;
+    height: 80%;
+    margin-left: 9%;
+    margin-right: 10%;
+    padding: 10%;
 }
