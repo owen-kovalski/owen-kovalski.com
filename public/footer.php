@@ -29,7 +29,7 @@
 			style="
 			color: green;
 			background-color: black;
-			width: initial;
+			width: 15%;
 			text-align: center;
 			padding: 1% 1% 1% 0%;
 			margin-left: 10%;
