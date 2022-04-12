@@ -70,7 +70,7 @@
 }
 
 .introduction {
-    box-sizing: content-box;
+    box-sizing: border-box;
     font-size:50px;
     color:green;
     background-color:black;
