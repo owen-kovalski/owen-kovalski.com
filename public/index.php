@@ -16,7 +16,7 @@
 		color:green;
 		background-color:black;
 		text-align:center;
-		border:solid 1px green;
+		border:solid 5px green;
 		border-radius:100px 100px 100px 0px;
 		width: 80%;
 		height: 80%;
