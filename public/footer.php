@@ -32,7 +32,7 @@
 			width: 15%;
 			text-align: center;
 			padding: 0% 1% 1% 1%;
-			margin: 0% 0% 0% 40%;
+			margin: 0% 0% 0% 50%;
 			border: solid 5px green;
 			border-radius: 100px;
 			">
