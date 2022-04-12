@@ -31,7 +31,7 @@
 			background-color: black;
 			width: 15%;
 			text-align: center;
-			padding: 1% 1% 0% 1%;
+			padding: 0% 1% 1% 1%;
 			margin-left: 10%;
 			margin-right: 10%;
 			">
