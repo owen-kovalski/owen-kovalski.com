@@ -29,6 +29,7 @@
 				background-color: black;
 				width: 20%;
 				text-align: center;
+				padding: 10% 10% 10% 10%;
 				">
 				<hr class="light">
 				<h5>
