@@ -9,9 +9,9 @@
 		data-aos-offset="200"
 		data-aos-delay="50"
 		data-aos-duration="1000">
-	<div class="introduction">
-		<h1 
-		style="
+	<div 
+	class="introduction"
+	style="
 		font-size:50px;
 		color:green;
 		background-color:black;
@@ -26,7 +26,8 @@
 		padding-left: 10%;
 		padding-right: 10%;
 		padding-bottom: 10%;
-		"> 
+	">
+		<h1> 
 		Welcome To My Website 
 		</h1> 
 		<br>
