@@ -6,6 +6,7 @@
 			<h2>Connect With Me</h2>
 			<script src="https://tryhackme.com/badge/282152"></script>
 		</div>
+		<hr>
 		<div class="col-12 social padding">
 			<a href="https://www.facebook.com/OwenKovalskiwebsite/"><i class="fab fa-facebook"></i></a>
 			<a href="https://www.twitter.com/Owen_Kovalski/"><i class="fab fa-twitter"></i></a>
