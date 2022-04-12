@@ -12,19 +12,7 @@
 		data-aos-duration="1000">
 	<div 
 	class="introduction"
-	style="
-		font-size:50px;
-		color:green;
-		background-color:black;
-		text-align:center;
-		border:solid 5px green;
-		border-radius:100px 100px 100px 0px;
-		width: 80%;
-		height: 80%;
-		margin-left: 9%;
-		margin-right: 10%;
-		padding: 10%;
-	">
+	>
 		<h1> 
 		Welcome To My Website 
 		</h1> 
