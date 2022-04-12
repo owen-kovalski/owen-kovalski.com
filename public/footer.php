@@ -41,7 +41,9 @@
 				<h5>
 				Contact
 				</h5>
+				<br>
 				<p></p>
+				<br>
 				<p>
 				contact@owen-kovalski.com
 				</p>
