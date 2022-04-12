@@ -24,23 +24,18 @@
 		data-aos-delay="50"
 		data-aos-duration="1000">
 		<div class="row text-center">
-			<div class="col-12">
-				<hr class="light">
-				<h5 style="
+			<div class="col-12" style="
 				color: green;
 				background-color: black;
 				width: 20%;
 				text-align: center;
 				">
+				<hr class="light">
+				<h5>
 				Contact
 				</h5>
 				<p></p>
-				<p style="
-				color: green;
-				background-color: black;
-				width: 20%;
-				text-align: center;
-				">
+				<p>
 				contact@owen-kovalski.com
 				</p>
 				<p></p>
