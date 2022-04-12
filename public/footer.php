@@ -26,11 +26,27 @@
 		<div class="row text-center">
 			<div class="contact">
 				<hr class="light">
-				<h5>
+				<h5 style="
+				color: green;
+				background-color: black;
+				width: 20%;
+				text-align: center;
+				padding: 1% 1% 1% 1%;
+				margin-left: 10%;
+				margin-right: 10%;
+				">
 				Contact
 				</h5>
 				<p></p>
-				<p>
+				<p style="
+				color: green;
+				background-color: black;
+				width: 20%;
+				text-align: center;
+				padding: 1% 1% 1% 1%;
+				margin-left: 10%;
+				margin-right: 10%;
+				">
 				contact@owen-kovalski.com
 				</p>
 				<p></p>
