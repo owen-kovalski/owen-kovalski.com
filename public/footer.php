@@ -32,7 +32,7 @@
 			width: 15%;
 			text-align: center;
 			padding: 0% 1% 1% 1%;
-			margin-left: 10%;
+			margin-left: 20%;
 			margin-right: 10%;
 			">
 				<hr class="light">
