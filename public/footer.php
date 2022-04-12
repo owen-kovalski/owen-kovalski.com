@@ -30,6 +30,7 @@
 				width: 20%;
 				text-align: center;
 				padding: 1% 1% 1% 1%;
+				margin-left: 1%;
 				">
 				<hr class="light">
 				<h5>
