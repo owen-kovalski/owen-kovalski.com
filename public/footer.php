@@ -29,9 +29,9 @@
 			style="
 			color: green;
 			background-color: black;
-			width: 20%;
+			width: 15%;
 			text-align: center;
-			padding: 1% 1% 1% 1%;
+			padding: 1% 1% 1% 0%;
 			margin-left: 10%;
 			margin-right: 10%;
 			">
