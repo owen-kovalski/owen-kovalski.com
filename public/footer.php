@@ -64,7 +64,7 @@
 				All Rights Reserved.
 				<br>
 				<hr>
-			</h5>
+				</h5>
 			</div>
 		</div>
 	</div>
