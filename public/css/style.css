@@ -27,20 +27,6 @@
     --breakpoint-xl:1200px;
 }
 
-.carousel-inner {
-    box-sizing: content-box;
-    border:solid 1px;
-    border-color:purple;
-    border-radius:100px 0px 100px 0px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.carousel-item {
-    box-sizing: border-box;
-}
-
 .img-fluid {
     height: 300px;
     width: 100%;
