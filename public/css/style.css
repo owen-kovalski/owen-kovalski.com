@@ -27,15 +27,6 @@
     --breakpoint-xl:1200px;
 }
 
-.navbar-brand {
-    background-image:"/img/logo1.png";
-    border:dotted 2px rgb(94, 12, 94);
-    border-radius:10% / 100%;
-    box-sizing:content-box;
-    margin-left: 10%;
-    margin-right:10%;
-}
-
 .carousel-inner {
     box-sizing: content-box;
     border:solid 1px;
