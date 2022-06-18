@@ -11,7 +11,7 @@
 		data-aos-offset="200"
 		data-aos-delay="50"
 		data-aos-duration="1000">
-		<div class="d-sm-flex">
+		<div class="d-sm-flex align-items-center justify-content-between">
 			<div>
 				<h1>Follow me into the world of <span class="text-warning"> Information Technology </span></h1> 
 				<p class="lead my-4"> 
