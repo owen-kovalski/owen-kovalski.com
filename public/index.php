@@ -13,16 +13,12 @@
 		data-aos-duration="1000">
 		<div class="d-sm-flex">
 			<div>
-				<h1> 
-				Follow me into the world of <span class="text-warning"> Information Technology </span>
-				</h1> 
+				<h1>Follow me into the world of <span class="text-warning"> Information Technology </span></h1> 
 				<p class="lead my-4"> 
 					This website is a personal project of mine. I am currently utilizing it as a way to learn about website development, as well as, showcase skills and projects that I am working on. 
 				</p>
 			</div>
-			<div class="div">
-				
-			</div>	
+			<img class="img-fluid w-50 d-none d-sm-block" src="img/background2.jpg" alt="" />	
 		</div>
 	</div>
 </section>
