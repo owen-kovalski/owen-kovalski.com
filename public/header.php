@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 	    <div class="container">
 		    <a class="navbar-brand" href="index.php">
-				<img src="img/logo1.png" alt="" width="30" height="24">
+				<img src="img/logo1.png" alt="" width="50" height="30">
 			</a>
 		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			    <span class="navbar-toggler-icon"></span>
