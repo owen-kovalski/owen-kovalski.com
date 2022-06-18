@@ -15,7 +15,7 @@
 			<h1> 
 			Follow me into the world of <span class="text-warning"> Information Technology </span>
 			</h1> 
-			<p class="lead"> 
+			<p class="lead my-4"> 
 				This website is a personal project of mine. I am currently utilizing it as a way to learn about website development, as well as, showcase skills and projects that I am working on. 
 			</p>	
 		</div>
