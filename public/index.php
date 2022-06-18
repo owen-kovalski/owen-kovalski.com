@@ -17,7 +17,7 @@
 				<p class="lead my-4"> 
 					This website is a personal project of mine. I am currently utilizing it as a way to learn about website development, as well as, showcase skills and projects that I am working on. 
 				</p>
-				<button class="btn btn-outline-secondary btn-lg">Get your Domain Name</button>
+				<button class="btn btn-outline-primary btn-lg">Get your Domain Name</button>
 			</div>
 			<img class="img-fluid w-50 d-none d-sm-block" src="img/background2.jpg" alt="" />	
 		</div>
