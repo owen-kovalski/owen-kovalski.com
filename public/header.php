@@ -22,7 +22,7 @@
 		    <a class="navbar-brand" href="#home">
 				<img src="img/logo1.png" alt="" width="150" height="50">
 			</a>
-		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
 			    <span class="navbar-toggler-icon"></span>
 		    </button>
 		    <div class="collapse navbar-collapse" id="navbarResponsive">
