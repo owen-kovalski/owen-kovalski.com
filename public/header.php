@@ -17,7 +17,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-secondary bg-primary sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 	    <div class="container">
 		    <a class="navbar-brand" href="index.php">
 				<img src="img/logo1.png" alt="" width="150" height="50">
