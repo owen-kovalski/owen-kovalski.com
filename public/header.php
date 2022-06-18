@@ -19,7 +19,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 	    <div class="container">
 		    <a class="navbar-brand" href="index.php">
 				<img src="img/logo1.png" alt="" width="100" height="50">
