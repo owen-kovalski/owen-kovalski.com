@@ -19,7 +19,6 @@
     text-align:center;
     border:solid 5px green;
     border-radius:100px 100px 100px 0px;
-    width: 80%;
     height: 80%;
     margin-left: 9%;
     margin-right: 10%;
