@@ -6,68 +6,22 @@
 <!-- Introduction -->
 <br>
 <br>
-<div class="container" data-aos="fade-up"
+<section class="bg-dark text-light p-5 text center">
+	<div class="container" data-aos="fade-up"
 		data-aos-offset="200"
 		data-aos-delay="50"
 		data-aos-duration="1000">
-	<div 
-	class="introduction"
-	style="
-	font-size:50px;
-    color:green;
-    background-color:black;
-    text-align:center;
-    border:solid 5px green;
-    border-radius:100px 100px 100px 0px;
-    height: 80%;
-    margin-left: 9%;
-    margin-right: 10%;
-    padding: 10%;
-	">
-		<h1> 
-		Welcome To My Website 
-		</h1> 
-		<br>
-		<br>
-		<p 
-		style="
-		font-size: 20px;
-		padding-top:1%;
-		"> 
-			This website is a personal project of mine. I am currently utilizing it as a way to learn about website development, as well as, showcase skills and projects that I am working on. 
-		</p>
+		<div class="d-sm-flex">
+			<h1> 
+			Follow me into the world of <span class="text-warning"> Information Technology </span>
+			</h1> 
+			<p class="lead"> 
+				This website is a personal project of mine. I am currently utilizing it as a way to learn about website development, as well as, showcase skills and projects that I am working on. 
+			</p>	
+		</div>
 	</div>
-</div>
+</section>
 
-<!--- Image Slider -->
-<!-- <div id="slides" class="carousel slide" data-ride="carousel" data-aos="fade-up"
-		data-aos-offset="200"
-		data-aos-delay="50"
-		data-aos-duration="1000">
-	<ul class="carousel-indicators">
-		<li data-target="#slides" data-slide-to="0" class="active"></li>
-		<li data-target="#slides" data-slide-to="1"></li>
-		<li data-target="#slides" data-slide-to="2"></li>
-	</ul>
-	<div class="carousel-inner">
-		<div class="carousel-item active">
-			<img class="img-fluid" src="img/background2_1.jpg">
-			<div class="carousel-caption">
-				<h1 class="display-2">Website</h1>
-				<h3>Complete Website Layout</h3>
-				<button type="button" class="btn btn-outline-light btn-lg">VIEW
-				DEMO</button>
-				<button type="button" class="btn btn-primary btn-lg">Get Started</button>
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img class="img-fluid" src="img/background2_1.jpg">
-		</div>
-		<div class="carousel-item">
-			<img class="img-fluid" src="img/background2.jpg">
-		</div>
-	</div>
-</div> -->
 <br>
 <br>
 <br>
