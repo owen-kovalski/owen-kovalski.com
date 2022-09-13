@@ -24,7 +24,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 	    <div class="container">
-		    <a class="navbar-brand" href="#home">
+		    <a class="navbar-brand" href="index.php">
 				<img src="img/logo1.png" alt="" width="150" height="50">
 			</a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
@@ -33,19 +33,22 @@
 		    <div class="collapse navbar-collapse" id="navbarResponsive">
 			    <ul class="navbar-nav ms-auto">
 				    <li class="nav-item">
-					    <a class="nav-link" href="#home">Home</a>
+					    <a class="nav-link" href="index.php">Home</a>
+				    </li>
+					<li class="nav-item">
+					    <a class="nav-link" href="/blog/blog.php">About</a>
 				    </li>
 				    <li class="nav-item">
-					    <a class="nav-link" href="#about">About</a>
+					    <a class="nav-link" href="about.php">About</a>
 				    </li>
 				    <li class="nav-item">
-					    <a class="nav-link" href="#projects">Projects</a>
+					    <a class="nav-link" href="projects.php">Projects</a>
 				    </li>
 				    <li class="nav-item">
-					    <a class="nav-link" href="#team">Team</a>
+					    <a class="nav-link" href="team.php">Team</a>
 				    </li>
 				    <li class="nav-item">
-					    <a class="nav-link" href="#connect">Connect</a>
+					    <a class="nav-link" href="connect.php">Connect</a>
 				    </li>
 			    </ul>
 		    </div>
