@@ -29,18 +29,7 @@
 		data-aos-delay="50"
 		data-aos-duration="1000">
 		<div class="row text-center">
-			<div 
-			class="contact"
-			style="
-			color: green;
-			background-color: black;
-			width: 15%;
-			text-align: center;
-			padding: 0% 2% 2% 2%;
-			margin: 0% 0% 0% 43%;
-			border: solid 5px green;
-			border-radius: 100px;
-			">
+			<div class="contact"">
 				<hr class="light">
 				<h5>
 				Contact
