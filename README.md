@@ -4,6 +4,14 @@
 
 \\   CHANGELOG   \\
 
+***09/14/2022***
+
+
+***09/13/2022***
+--HEADER--
+* Added "Blog" to NAV-bar
+* Associated links to page names
+
 ***04/11/2022***
 --HEADER--
 * Removed Services page.
