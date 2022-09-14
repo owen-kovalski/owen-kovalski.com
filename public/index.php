@@ -12,19 +12,18 @@
 		data-aos-offset="200"
 		data-aos-delay="50"
 		data-aos-duration="1000">
-		<div class="d-sm-flex align-items-center justify-content-between">
+		<div class="d-sm-flex justify-content-between">
 			<div>
 				<h1>Follow me into the world of <span class="text-warning"> Information Technology </span></h1> 
 				<p class="lead my-4"> 
 					Learning IT can be fun. Follow to see interesting projects you can do yourself! 
 				</p>
 				<div>
-					<a> href="https://domains.google/" </a>
-					<button class="btn btn-outline-secondary btn-sm" style="text-color: white;">Get your Domain Name</button>
-				</div>
+					<a class="btn btn-outline-secondary btn-sm" href="https://domains.google/" style="text-color: white;">Get your Domain Name</a>
+				</div>														   
 			</div>
 			<div class="align-items-right">
-			<img class="img-fluid w-50 d-none d-sm-block" src="img/background2.jpg" alt="" />
+				<img class="img-fluid w-50 d-none d-sm-block" src="img/background2.jpg" alt="" />
 			</div>
 		</div>
 	</div>
