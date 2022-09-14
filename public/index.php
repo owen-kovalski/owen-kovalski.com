@@ -18,7 +18,10 @@
 				<p class="lead my-4"> 
 					Learning IT can be fun. Follow to see interesting projects you can do yourself! 
 				</p>
-				<button href="https://domains.google/" class="btn btn-outline-secondary btn-sm" style="text-color: white;">Get your Domain Name</button>
+				<div>
+					<a> href="https://domains.google/" </a>
+					<button class="btn btn-outline-secondary btn-sm" style="text-color: white;">Get your Domain Name</button>
+				</div>
 			</div>
 			<div class="align-items-right">
 			<img class="img-fluid w-50 d-none d-sm-block" src="img/background2.jpg" alt="" />
