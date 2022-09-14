@@ -8,7 +8,10 @@
 			<script src="https://tryhackme.com/badge/282152"></script>
 		</div>
 		<div class="col-12 social padding">
-			<a href="https://www.facebook.com/OwenKovalskiwebsite/"><i class="fab fa-facebook"></i></a>
+			<!-- Facebook -->
+			<a style="color: #3b5998;" href="https://www.facebook.com/OwenKovalskiwebsite/" role="button">
+				<i class="fab fa-facebook-f fa-lg"></i>
+			</a>
 			<a href="https://www.twitter.com/Owen_Kovalski/"><i class="fab fa-twitter"></i></a>
 			<!--- <a href="#"><i class="fab fa-google-plus-g"></i></a> --->
 			<a href="https://www.instagram.com/owen_kovalski_website/"><i class="fab fa-instagram"></i></a>
@@ -32,7 +35,7 @@
 				Contact
 				</h5>
 				<br>
-				<p></p>
+				<p>Telegram: +1 (716) 219-1569</p>
 				<br>
 				<p>
 				contact@owen-kovalski.com
