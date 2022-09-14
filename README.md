@@ -3,21 +3,30 @@
 // This is a project website that is currently under development.
 
 \\   CHANGELOG   \\
-
+__________________________________________________________________________
 ***09/14/2022***
+__________________________________________________________________________
+--HEADER--
+* Added class variables for hamburger menu.
 
-
+--INDEX--
+* Added Google Domains button to Introduction section.
+* Removed unnecessary section to advertise Google Domains.
+__________________________________________________________________________
 ***09/13/2022***
+__________________________________________________________________________
 --HEADER--
 * Added "Blog" to NAV-bar
 * Associated links to page names
-
+__________________________________________________________________________
 ***04/11/2022***
+__________________________________________________________________________
 --HEADER--
 * Removed Services page.
 * Added Projects page.
-
+__________________________________________________________________________
 ***04/08/2022***
+__________________________________________________________________________
 --CSS--
 * Added formatting to intro title
 
@@ -25,8 +34,9 @@
 * Added intro title.
 * Added small description under intro title.
 * Added Background and font changed to title.
-
+__________________________________________________________________________
 ***01/20/2022***
+__________________________________________________________________________
 --CSS--
 * Added .introduction style, text aligned, text size increase
 
