@@ -22,8 +22,8 @@
 					<a class="btn btn-outline-secondary btn-sm" href="https://domains.google/" style="text-color: white;">Get your Domain Name</a>
 				</div>														   
 			</div>
-			<div class="align-right">
-				<img class="img-fluid w-50 d-none d-sm-block" src="img/background2.jpg" alt="" />
+			<div>
+				<img class="img-fluid w-50 d-none d-sm-block float-end" src="img/background2.jpg" alt="" />
 			</div>
 		</div>
 	</div>
