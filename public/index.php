@@ -7,7 +7,8 @@
 <br>
 <br>
 <section class="bg-dark text-light p-5 text-center text-sm-start">
-	<div class="container" data-aos="fade-up"
+	<div class="container" 
+	     	data-aos="fade-up"
 		data-aos-offset="200"
 		data-aos-delay="50"
 		data-aos-duration="1000">
@@ -15,11 +16,13 @@
 			<div>
 				<h1>Follow me into the world of <span class="text-warning"> Information Technology </span></h1> 
 				<p class="lead my-4"> 
-					This website is a personal project of mine. I am currently utilizing it as a way to learn about website development, as well as, showcase skills and projects that I am working on. 
+					Learning IT can be fun. Follow to see interesting projects you can do yourself! 
 				</p>
-				<a href="https://domains.google/"><button class="btn btn-outline-secondary btn-sm" style="text-color: white;">Get your Domain Name</button>
+				<button href="https://domains.google/" class="btn btn-outline-secondary btn-sm" style="text-color: white;">Get your Domain Name</button>
 			</div>
-			<img class="img-fluid w-50 d-none d-sm-block" src="img/background2.jpg" alt="" />	
+			<div>
+			<img class="img-fluid w-50 d-none d-sm-block" src="img/background2.jpg" alt="" />
+			</div>
 		</div>
 	</div>
 </section>
