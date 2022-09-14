@@ -23,34 +23,22 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-	    <div class="container">
+	    <div class="container-fluid">
 		    <a class="navbar-brand" href="index.php">
 				<img src="img/logo1.png" alt="" width="150" height="50">
 			</a>
-		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 		    </button>
-		    <div class="collapse navbar-collapse" id="navbarResponsive">
-			    <ul class="navbar-nav ms-auto">
-				    <li class="nav-item">
-					    <a class="nav-link" href="index.php">Home</a>
-				    </li>
-					<li class="nav-item">
-					    <a class="nav-link" href="blog.php">Blog</a>
-				    </li>
-				    <li class="nav-item">
-					    <a class="nav-link" href="about.php">About</a>
-				    </li>
-				    <li class="nav-item">
-					    <a class="nav-link" href="projects.php">Projects</a>
-				    </li>
-				    <li class="nav-item">
-					    <a class="nav-link" href="team.php">Team</a>
-				    </li>
-				    <li class="nav-item">
-					    <a class="nav-link" href="connect.php">Connect</a>
-				    </li>
-			    </ul>
+		    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			    <div class="navbar-nav">
+				    <a class="nav-link" href="index.php">Home</a>
+				    <a class="nav-link" href="blog.php">Blog</a>
+				    <a class="nav-link" href="about.php">About</a>
+				    <a class="nav-link" href="projects.php">Projects</a>
+				    <a class="nav-link" href="team.php">Team</a>
+				    <a class="nav-link" href="connect.php">Connect</a>
+			    </div>
 		    </div>
 	    </div>
     </nav>
