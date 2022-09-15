@@ -8,8 +8,8 @@
 			<script src="https://tryhackme.com/badge/282152"></script>
 			<hr>
 			<!-- Facebook -->
-			<a style="color: #3b5998;" href="https://www.facebook.com/OwenKovalskiwebsite/" role="button">
-				<i class="fab fa-facebook-f fa-lg"></i>
+			<a href="https://www.facebook.com/OwenKovalskiwebsite/" role="button">
+				<i class="fab fa-facebook fa-lg"></i>
 			</a>
 		</div>
 		<div>
