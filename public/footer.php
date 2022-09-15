@@ -7,7 +7,7 @@
 			<hr>
 			<script src="https://tryhackme.com/badge/282152"></script>
 		</div>
-		<div class="col-12 social padding">
+		<div>
 			<!-- Facebook -->
 			<a style="color: #3b5998;" href="https://www.facebook.com/OwenKovalskiwebsite/" role="button">
 				<i class="fab fa-facebook-f fa-lg"></i>
