@@ -17,6 +17,7 @@
 	
 	<!-- Bootstrap Icon CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
 	<!-- Custom CSS -->
 	<link href="/css/reset.css" rel="stylesheet">
