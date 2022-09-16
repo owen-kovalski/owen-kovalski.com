@@ -9,7 +9,7 @@
 			<hr>
 			<!-- Facebook -->
 			<a href="https://www.facebook.com/OwenKovalskiwebsite/" role="button">
-				<i class="fab fa-facebook fa-lg"></i>
+				<i class="bi bi-facebook"></i>
 			</a>
 		</div>
 		<div>
