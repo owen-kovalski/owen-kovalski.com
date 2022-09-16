@@ -1,14 +1,14 @@
 <!--- Connect -->
 <hr>
 <div class="container-fluid padding">
-	<div class="row text-center padding justify-content-between">
+	<div class="row text-center padding">
 		<div class="col-12">
 			<h2>Connect With Me</h2>
 			<hr>
 			<script src="https://tryhackme.com/badge/282152"></script>
 			<hr>
 		</div>
-		<div>
+		<div class="justify-content-between">
 			<!-- Facebook -->
 			<a style="color: #3b5998;" href="https://www.facebook.com/OwenKovalskiwebsite/" role="button">
 				<i class="bi bi-facebook"></i>
