@@ -6,9 +6,8 @@
 			<h2>Connect With Me</h2>
 			<hr>
 			<script src="https://tryhackme.com/badge/282152"></script>
-			<hr>
 		</div>
-		<div class="justify-content-between">
+		<div>
 			<!-- Facebook -->
 			<a style="color: #3b5998;" href="https://www.facebook.com/OwenKovalskiwebsite/" role="button">
 				<i class="bi bi-facebook"></i>
