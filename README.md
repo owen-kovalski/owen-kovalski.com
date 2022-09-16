@@ -3,9 +3,9 @@
 // This is a project website that is currently under development.
 
 \\   CHANGELOG   \\
-__________________________________________________________________________
+<hr>
 ***09/16/2022***
-__________________________________________________________________________
+<hr>
 --FOOTER--
 * Changed Social media icons from "fab fa" to "bi bi-" Icon issue resolved.
 * Removed "hr" break between HTB badge and socials.
@@ -44,7 +44,7 @@ __________________________________________________________________________
 --CSS--
 * Added .introduction style, text aligned, text size increase
 --INDEX--
-* Removed <br> tags and added <hr> tag
+* Removed "br" tags and added "hr" tag
 * Added h1 and container tags
 * Created "Introduction" container
 --HEADER--
