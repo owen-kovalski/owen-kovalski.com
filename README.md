@@ -4,15 +4,17 @@
 
 \\   CHANGELOG   \\
 <hr>
-***09/16/2022***
+**09/16/2022**
 <hr>
 --FOOTER--
+<br>
 * Changed Social media icons from "fab fa" to "bi bi-" Icon issue resolved.
 * Removed "hr" break between HTB badge and socials.
 <hr>
-***09/14/2022***
+**09/14/2022**
 <hr>
 --HEADER--
+<br>
 * Added class variables for hamburger menu.
 <br>
 --INDEX--
