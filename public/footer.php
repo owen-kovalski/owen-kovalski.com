@@ -1,7 +1,7 @@
 <!--- Connect -->
 <hr>
 <div class="container-fluid padding">
-	<div class="row text-center padding">
+	<div class="row text-center padding justify-content-between">
 		<div class="col-12">
 			<h2>Connect With Me</h2>
 			<hr>
