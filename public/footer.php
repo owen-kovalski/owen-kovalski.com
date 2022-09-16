@@ -7,21 +7,17 @@
 			<hr>
 			<script src="https://tryhackme.com/badge/282152"></script>
 			<hr>
-			<!-- Facebook -->
-			<a href="https://www.facebook.com/OwenKovalskiwebsite/" role="button">
-				<i class="bi bi-facebook"></i>
-			</a>
 		</div>
 		<div>
 			<!-- Facebook -->
 			<a style="color: #3b5998;" href="https://www.facebook.com/OwenKovalskiwebsite/" role="button">
-				<i class="fab fa-facebook-f fa-lg"></i>
+				<i class="bi bi-facebook"></i>
 			</a>
-			<a href="https://www.twitter.com/Owen_Kovalski/"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.twitter.com/Owen_Kovalski/"><i class="bi bi-twitter"></i></a>
 			<!--- <a href="#"><i class="fab fa-google-plus-g"></i></a> --->
-			<a href="https://www.instagram.com/owen_kovalski_website/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.instagram.com/owen_kovalski_website/"><i class="bi bi-instagram"></i></a>
 			<!--- <a href="#"><i class="fab fa-youtube"></i></a> --->
-			<a href="https://www.linkedin.com/in/owen-kovalski-597334123/"><i class="fab fa-linkedin"></i></a>
+			<a href="https://www.linkedin.com/in/owen-kovalski-597334123/"><i class="bi bi-linkedin"></i></a>
 		</div>
 	</div>
 </div>
