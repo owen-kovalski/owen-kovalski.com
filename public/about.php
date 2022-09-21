@@ -1,7 +1,7 @@
 <?php
     include_once 'header.php';
 ?>
-<section class="bg-dark text-light p-5 text-center">
+<section class="bg-dark text-light text-center">
 	<div class="container" 
 			data-aos="fade-up"
 			data-aos-offset="200"
@@ -13,8 +13,8 @@
     </div>
 </section>
 <section>
-    <div>
-        <p class="mx-auto lead">My name is <u>Owen Kovalski</u> and I am a 28 year old developer/cybersecurity researcher.</p>
+    <div class="mx-auto">
+        <p class="lead">My name is <u>Owen Kovalski</u> and I am a 28 year old developer/cybersecurity researcher.</p>
     </div>
 </section>
 <?php
