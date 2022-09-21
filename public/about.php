@@ -2,7 +2,7 @@
     include_once 'header.php';
 ?>
 <section class="bg-dark text-light p-5 text-center">
-	<div class="container padding" 
+	<div class="container" 
 			data-aos="fade-up"
 			data-aos-offset="200"
 			data-aos-delay="50"
