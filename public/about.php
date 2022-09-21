@@ -14,7 +14,7 @@
 </section>
 <section>
     <div>
-        <p>My name is <u>Owen Kovalski</u> and I am a 28 year old developer/cybersecurity researcher.</p>
+        <p class="mx-auto lead">My name is <u>Owen Kovalski</u> and I am a 28 year old developer/cybersecurity researcher.</p>
     </div>
 </section>
 <?php
