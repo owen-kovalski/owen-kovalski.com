@@ -13,8 +13,14 @@
     </div>
 </section>
 <section>
-    <div class="mx-auto">
-        <p class="lead">My name is <u>Owen Kovalski</u> and I am a 28 year old developer/cybersecurity researcher.</p>
+    <div class="conatiner"
+        data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+        <div class="mx-auto">
+            <p class="lead">My name is <u>Owen Kovalski</u> and I am a 28 year old developer/cybersecurity researcher.</p>
+        </div>
     </div>
 </section>
 <?php
