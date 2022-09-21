@@ -8,7 +8,7 @@
 			data-aos-delay="50"
 			data-aos-duration="1000">
             <div>
-                <h1 class="display-1 mx-auto" style="width: 30%;">Who I am</h1>
+                <h1 class="display-1 mx-auto">Who I am</h1>
             </div>
     </div>
 </section>
