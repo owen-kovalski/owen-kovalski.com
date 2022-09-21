@@ -1,7 +1,7 @@
 <?php
     include_once 'header.php';
 ?>
-<section class="bg-dark text-light p-5 text-center text-sm-start">
+<section class="bg-dark text-light p-5 text-center">
 	<div class="container" 
 			data-aos="fade-up"
 			data-aos-offset="200"
