@@ -12,6 +12,11 @@
             </div>
     </div>
 </section>
+<section>
+    <div>
+        <p>My name is <u>Owen Kovalski</u> and I am a 28 year old developer/cybersecurity researcher.</p>
+    </div>
+</section>
 <?php
     include_once 'footer.php';
 ?>
