@@ -19,7 +19,8 @@
 		data-aos-delay="50"
 		data-aos-duration="1000">
         <div class="text-center p-5">
-            <p class="lead">My name is <u>Owen Kovalski</u> and I am a 28 year old developer/cybersecurity researcher.</p>
+            <p class="lead"><strong>My name is <u>Owen Kovalski</u></strong></p>
+            <p class="">I am a 28 year old developer/cybersecurity researcher.</p>
         </div>
     </div>
 </section>
