@@ -19,6 +19,7 @@
 		data-aos-delay="50"
 		data-aos-duration="1000">
         <div class="text-center p-5">
+            <img src="img/Profile_Picture.png" alt="" width="150" height="50">
             <p class="lead"><strong><u>Owen Kovalski</u></strong></p>
             <p>A 28-year-old developer and cybersecurity researcher.</p>
             <p>Taking on various projects, bringing small businesses or individuals to the modern web.</p>
