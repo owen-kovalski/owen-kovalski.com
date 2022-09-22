@@ -36,7 +36,7 @@
 <br>
 <br>
 <!--- Jumbotron -->
-<section class="bg-dark text-light p-5 text-center text-sm-start">
+<section class="bg-dark text-light p-5 text-center text-sm-start m-5">
 	<div class="container" 
 			data-aos="fade-up"
 			data-aos-offset="200"
