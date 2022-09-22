@@ -24,6 +24,14 @@
             <p>A 28-year-old developer and cybersecurity researcher.</p>
             <p>Taking on various projects, bringing small businesses or individuals to the modern web.</p>
             <p>By providing my services to clients, I allow them the ability to revitalize their brand for generations old and new!</p>
+            <p>Owen Kovalski has:</p>
+            <p><em>Eight years of Military Communications/Information Technology experience</em></p>
+            <br>
+            <p>Owen Kovalski's skills include</p>
+            <p><em>Programming in Python, HTML5, LUA, JS, JAVA, CSS</em></p>
+            <p><em>Cloud Server management</em></p>
+            <p><em>DNS record creation/management</em></p>
+            <p><em>Basic Cyber Awareness Instructing/Training</em></p>
         </div>
     </div>
 </section>
