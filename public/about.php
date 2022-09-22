@@ -21,7 +21,7 @@
         <div class="text-center p-5">
             <img src="img/Profile_Picture.png" alt="" width="250" height="300" style="border: solid; border-radius: 10%;">
             <p class="lead"><strong><u>Owen Kovalski</u></strong></p>
-            <p>A 28-year-old developer and cybersecurity researcher.</p>
+            <p>A 27-year-old developer and cybersecurity researcher.</p>
             <p>Taking on various projects, bringing small businesses or individuals to the modern web.</p>
             <p>By providing my services to clients, I allow them the ability to revitalize their brand for generations old and new!</p>
             <p>Owen Kovalski has:</p>
