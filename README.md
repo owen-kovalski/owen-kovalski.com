@@ -5,6 +5,7 @@
 \\   CHANGELOG   \\
 <hr>
 ***12/19/2022***
+<hr>
 --SERVER--
 <br>
 * Hestia migration complete.
