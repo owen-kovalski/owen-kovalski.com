@@ -4,6 +4,17 @@
 
 \\   CHANGELOG   \\
 <hr>
+***12/19/2022***
+--SERVER--
+<br>
+* Hestia migration complete.
+<br>
+* DNS Records updated
+<br>
+* Email accounts created for default user && contact
+<br>
+* Planned Storefront && User/Admin login interface
+<hr>
 ***09/16/2022***
 <hr>
 --FOOTER--
