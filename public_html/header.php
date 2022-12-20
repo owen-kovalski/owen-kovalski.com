@@ -45,6 +45,7 @@
 				    <a class="nav-link" href="projects.php">Projects</a>
 				    <a class="nav-link" href="team.php">Team</a>
 				    <a class="nav-link" href="connect.php">Connect</a>
+				    <a class="nav-link" href="/useraccounts/registration.php">Register</a>
 			    </div>
 		    </div>
 	    </div>
