@@ -4,6 +4,19 @@
 
 \\   CHANGELOG   \\
 <hr>
+***12/20/2022***
+<hr>
+--USERACCOUNTS/CONFIG--
+* Added
+<br>
+--USERACCOUNTS/INDEX--
+<br>
+* Added
+<br>
+--USERACCOUNTS/REGISTRATION--
+<br>
+*Added
+<hr>
 ***12/19/2022***
 <hr>
 --SERVER--
