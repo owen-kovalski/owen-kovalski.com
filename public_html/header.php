@@ -44,7 +44,7 @@
 				    <a class="nav-link" href="about.php">About</a>
 				    <a class="nav-link" href="projects.php">Projects</a>
 				    <a class="nav-link" href="team.php">Team</a>
-				    <a class="nav-link" href="/useraccounts/registration.php">Register</a>
+				    <a class="nav-link" href="/useraccounts/registration.php">Login/Register</a>
 			    </div>
 		    </div>
 	    </div>
