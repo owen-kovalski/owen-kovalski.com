@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>User Registration | PHP</title>
-</head>
-<body>
+<?php
+  include_once 'header.php';
+	include_once '/css/style.css';
+?>
   
   <div>
     <?php
@@ -36,5 +34,6 @@
         <input type="submit" name="create" value="Sign Up">
   </div>
   
-</body
-</html>
+<?php
+  include_once 'footer.php';
+?>
