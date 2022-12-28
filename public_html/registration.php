@@ -9,7 +9,12 @@
   <div>
     <?php
     if(isset($_POST['create'])){
-      echo 'User submitted';
+      $firstname    = $_POST['firstname'];
+      $lastname     = $_POST['lastname'];
+      $email        = $_POST['email'];
+      $phonenumber  = $_POST['phonenumber'];
+      $password     = $_POST['password'];
+      echo $firstname , "" , $lastname , "" , $email , "" , $phonenumber , "" , $password;
     }
     ?>
   </div>
@@ -19,7 +24,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-            <h1>Registration</h1>
+            <h1>Register</h1>
             <p>Please ensure all information is correct before submitting.</p>
             <hr class="mb-3">
             <label for="firstname"><b>First Name</b></label>
