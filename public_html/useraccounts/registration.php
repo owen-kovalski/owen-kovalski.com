@@ -24,6 +24,8 @@
 
         <label for="password"><b>Password</b></label>
         <input type="password" name="password" required>
+
+        <input type="submit" name="create" value="Sign Up">
   </div>
   
 </body
