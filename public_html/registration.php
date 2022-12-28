@@ -5,9 +5,6 @@
 <?php
   include_once 'includes/nav.php';
 ?>
-<?php
-  require_once('config.php');
-?>
   <div>
     <?php
     if(isset($_POST['create'])){
