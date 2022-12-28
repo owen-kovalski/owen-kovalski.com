@@ -10,18 +10,18 @@
 			    	<span class="navbar-toggler-icon"></span>
 		    	</button>
 		    	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			    	<div class="navbar-nav justify-content-right">
+			    	<div class="navbar-nav d-flex justify-content-right">
 				    	<a class="nav-link" href="index.php">Home</a>
 				    	<a class="nav-link" href="blog.php">Blog</a>
 				    	<a class="nav-link" href="about.php">About</a>
 				    	<a class="nav-link" href="projects.php">Projects</a>
 				    	<a class="nav-link" href="team.php">Team</a>
-						<li class="nav-item dropdown justify-content-center">
+						<li class="nav-item dropdown ">
           					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Login/Register</a>
           				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            				<li><a class="dropdown-item" href="#">Login</a></li>
+            				<li><a class="dropdown-item d-flex justify-content-center" href="#">Login</a></li>
             				<li><hr class="dropdown-divider"></li>
-            				<li><a class="dropdown-item" href="registration.php">Register</a></li>
+            				<li><a class="dropdown-item d-flex justify-content-center" href="registration.php">Register</a></li>
           				</ul>
 			    	</div>
 		    	</div>
