@@ -9,16 +9,16 @@
 		    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			    	<span class="navbar-toggler-icon"></span>
 		    	</button>
-		    	<div class="collapse navbar-collapse justify-content-right" id="navbarNavAltMarkup">
-			    	<div class="navbar-nav">
+		    	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			    	<div class="navbar-nav justify-content-right">
 				    	<a class="nav-link" href="index.php">Home</a>
 				    	<a class="nav-link" href="blog.php">Blog</a>
 				    	<a class="nav-link" href="about.php">About</a>
 				    	<a class="nav-link" href="projects.php">Projects</a>
 				    	<a class="nav-link" href="team.php">Team</a>
-						<li class="nav-item dropdown">
+						<li class="nav-item dropdown justify-content-center">
           					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Login/Register</a>
-          				<ul class="dropdown-menu justify-content-center" aria-labelledby="navbarDropdown">
+          				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             				<li><a class="dropdown-item" href="#">Login</a></li>
             				<li><hr class="dropdown-divider"></li>
             				<li><a class="dropdown-item" href="registration.php">Register</a></li>
