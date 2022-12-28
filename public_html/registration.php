@@ -1,31 +1,12 @@
 <?php
 	include_once 'includes/header.php';
+  require_once('useraccounts/config.php');
 ?>
 <body>
 <?php
   include_once 'includes/nav.php';
 ?>
-  <div>
-    <?php
-    if(isset($_POST['create'])){
-      $firstname    = $_POST['firstname'];
-      $lastname     = $_POST['lastname'];
-      $email        = $_POST['email'];
-      $phonenumber  = $_POST['phonenumber'];
-      $password     = $_POST['password'];
-
-      $sql = "INSERT INTO users (firstname, lastname, email, phonenumber, password ) VALUES(?,?,?,?,?)";
-      $stmtinsert = $db->prepare($sql);
-      $result = $stmtinsert->execute([$firstname, $lastname, $email, $phonenumber, $password]);
-      if($result){
-        echo 'Successfully Saved.';
-      }else{
-        echo 'There were errors while saving the data.';
-      }
-    }
-    ?>
-  </div>
-
+<section>
   <div>
     <form action="registration.php" method="post">
       <div class="container">
@@ -49,12 +30,51 @@
             <label for="password"><b>Password</b></label>
             <input class="form-control" type="password" name="password" required>
             <hr class="mb-3">
-            <input class="btn btn-primary" type="submit" name="create" value="Sign Up">
+            <input class="btn btn-primary" type="submit" id='register' name="create" value="Sign Up">
           </div>
         </div>
       </div>
     </form>
   </div>
+</section>
+<script type="text/javascript">
+	$(function(){
+		$('#register').click(function(e){
+
+			var valid = this.form.checkValidity();
+
+			if(valid){
+			var firstname 	= $('#firstname').val();
+			var lastname	  = $('#lastname').val();
+			var email 		  = $('#email').val();
+			var phonenumber = $('#phonenumber').val();
+			var password 	  = $('#password').val();
+				
+        e.preventDefault();	
+				$.ajax({
+					type: 'POST',
+					url: 'useraccounts/process.php',
+					data: {firstname: firstname,lastname: lastname,email: email,phonenumber: phonenumber,password: password},
+					success: function(data){
+					Swal.fire({
+								'title': 'Successful',
+								'text': data,
+								'type': 'success'
+								})							
+					},
+					error: function(data){
+						Swal.fire({
+								'title': 'Errors',
+								'text': 'There were errors while saving the data.',
+								'type': 'error'
+								})
+					}
+				});				
+			}else{				
+			}
+		});		
+	});	
+</script>
 </body> 
 <?php
   include_once 'includes/footer.php';
