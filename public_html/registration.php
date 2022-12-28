@@ -1,5 +1,6 @@
 <?php
 	include_once 'includes/header.php';
+  require_once 'useraccounts/config.php';
 ?>
 <body>
 <?php
@@ -14,7 +15,15 @@
       $email        = $_POST['email'];
       $phonenumber  = $_POST['phonenumber'];
       $password     = $_POST['password'];
-      echo $firstname , "" , $lastname , "" , $email , "" , $phonenumber , "" , $password;
+
+      $sql = "INSERT INTO users (firstname, lastname, email, phonenumber, password ) VALUES(?,?,?,?,?)";
+      $stmtinsert = $db->prepare($sql);
+      $result = $stmtinsert->execute([$firstname, $lastname, $email, $phonenumber, $password]);
+      if($result){
+        echo 'Successfully Saved.';
+      }else{
+        echo 'There were errors while saving the data.';
+      }
     }
     ?>
   </div>
