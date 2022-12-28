@@ -16,19 +16,19 @@
             <p>Please ensure all information is correct before submitting.</p>
             <hr class="mb-3">
             <label for="firstname"><b>First Name</b></label>
-            <input class="form-control" type="text" name="firstname" required>
+            <input class="form-control" id="firstname" type="text" name="firstname" required>
 
             <label for="lastname"><b>Last Name</b></label>
-            <input class="form-control" type="text" name="lastname" required>
+            <input class="form-control" id="lastname" type="text" name="lastname" required>
 
             <label for="email"><b>Email Address</b></label>
-            <input class="form-control" type="email" name="email" required>
+            <input class="form-control" id="email" type="email" name="email" required>
 
             <label for="phonenumber"><b>Phone Number</b></label>
-            <input class="form-control" type="text" name="phonenumber" required>
+            <input class="form-control" id="phonenumber" type="text" name="phonenumber" required>
 
             <label for="password"><b>Password</b></label>
-            <input class="form-control" type="password" name="password" required>
+            <input class="form-control" id="password" type="password" name="password" required>
             <hr class="mb-3">
             <input class="btn btn-primary" type="submit" id='register' name="create" value="Sign Up">
           </div>
