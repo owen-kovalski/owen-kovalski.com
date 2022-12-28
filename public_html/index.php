@@ -1,10 +1,10 @@
 <?php
-include_once '/header.php';
-include_once '/css/style.css';
+	include_once 'header.php';
+	include_once 'css/style.css';
 ?>
 <body>
 <?php
-    include_once '/nav.php';
+    include_once 'nav.php';
 ?>
 <!-- Introduction -->
 <br>
@@ -55,5 +55,5 @@ include_once '/css/style.css';
 </section>
 </body>
 <?php
-    include_once '/includes/footer.php';
+    include_once 'footer.php';
 ?>
