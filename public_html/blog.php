@@ -2,6 +2,11 @@
     include_once 'header.php';
 	include_once '/css/style.css';
 ?>
+
+<body>
+<?php
+    include_once '/nav.php';
+?>
 <section class="bg-dark text-light p-5 text-center text-sm-start">
 	<div class="container" 
 			data-aos="fade-up"
