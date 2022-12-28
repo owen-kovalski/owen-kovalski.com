@@ -21,6 +21,7 @@
           <div class="col-sm-3">
             <h1>Registration</h1>
             <p>Please ensure all information is correct before submitting.</p>
+            <hr class="mb-3">
             <label for="firstname"><b>First Name</b></label>
             <input class="form-control" type="text" name="firstname" required>
 
@@ -35,8 +36,8 @@
 
             <label for="password"><b>Password</b></label>
             <input class="form-control" type="password" name="password" required>
-
-            <input class="form-control" type="submit" name="create" value="Sign Up">
+            <hr class="mb-3">
+            <input class="btn btn-primary" type="submit" name="create" value="Sign Up">
           </div>
         </div>
       </div>
