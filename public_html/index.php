@@ -1,5 +1,5 @@
 <?php
-	include_once 'header.php';
+	include_once 'includes/header.php';
 	include_once 'css/style.css';
 ?>
 <body>
@@ -55,5 +55,5 @@
 </section>
 </body>
 <?php
-    include_once 'footer.php';
+    include_once 'includes/footer.php';
 ?>
