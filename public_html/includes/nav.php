@@ -10,7 +10,7 @@
 			    	<span class="navbar-toggler-icon"></span>
 		    	</button>
 		    	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			    	<div class="navbar-nav d-flex justify-content-right">
+			    	<div class="navbar-nav d-flex justify-content-end">
 				    	<a class="nav-link" href="index.php">Home</a>
 				    	<a class="nav-link" href="blog.php">Blog</a>
 				    	<a class="nav-link" href="about.php">About</a>
