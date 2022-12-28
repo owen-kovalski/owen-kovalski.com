@@ -1,10 +1,10 @@
 <?php
 	include_once 'includes/header.php';
-  require_once('config.php');
 ?>
 <body>
 <?php
   include_once 'includes/nav.php';
+  require_once('config.php');
 ?>
   
   <div>
