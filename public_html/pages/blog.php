@@ -1,11 +1,10 @@
 <?php
-    include_once '/includes/header.php';
-	include_once '/css/style.css';
+	include_once 'includes/header.php';
+	include_once 'css/style.css';
 ?>
-
 <body>
 <?php
-    include_once '/nav.php';
+    include_once 'includes/nav.php';
 ?>
 <section class="bg-dark text-light p-5 text-center text-sm-start">
 	<div class="container" 
@@ -21,6 +20,7 @@
 		</div>
 	</div>
 </section>
+</body>
 <?php
-    include_once 'footer.php';
+    include_once 'includes/footer.php';
 ?>

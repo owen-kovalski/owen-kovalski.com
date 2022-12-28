@@ -1,5 +1,10 @@
 <?php
-    include_once 'header.php';
+	include_once 'includes/header.php';
+	include_once 'css/style.css';
+?>
+<body>
+<?php
+    include_once 'includes/nav.php';
 ?>
 <section class="bg-dark text-light p-5 text-center">
 	<div class="container" 
@@ -35,6 +40,7 @@
         </div>
     </div>
 </section>
+</body>
 <?php
-    include_once 'footer.php';
+    include_once 'includes/footer.php';
 ?>

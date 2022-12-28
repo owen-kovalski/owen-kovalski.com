@@ -12,10 +12,10 @@
 		    	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			    	<div class="navbar-nav">
 				    	<a class="nav-link" href="index.php">Home</a>
-				    	<a class="nav-link" href="blog.php">Blog</a>
-				    	<a class="nav-link" href="about.php">About</a>
-				    	<a class="nav-link" href="projects.php">Projects</a>
-				    	<a class="nav-link" href="team.php">Team</a>
+				    	<a class="nav-link" href="pages/blog.php">Blog</a>
+				    	<a class="nav-link" href="pages/about.php">About</a>
+				    	<a class="nav-link" href="pages/projects.php">Projects</a>
+				    	<a class="nav-link" href="pages/team.php">Team</a>
 				    	<a class="nav-link" href="#">Login/Register</a>
 			    	</div>
 		    	</div>
