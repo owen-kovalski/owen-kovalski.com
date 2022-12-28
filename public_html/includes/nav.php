@@ -19,9 +19,9 @@
 						<li class="nav-item dropdown">
           					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Login/Register</a>
           				<ul class="dropdown-menu justify-content-center" aria-labelledby="navbarDropdown">
-            				<li><button class="btn btn-outline-success me-2 nav-link" type="button" href="#">Login</button></li>
+            				<li><a class="dropdown-item" href="#">Login</a></li>
             				<li><hr class="dropdown-divider"></li>
-            				<li><button class="btn btn-sm btn-outline-secondary nav-link" type="button" href="registration.php">Register</button></li>
+            				<li><a class="dropdown-item" href="registration.php">Register</a></li>
           				</ul>
 			    	</div>
 		    	</div>
