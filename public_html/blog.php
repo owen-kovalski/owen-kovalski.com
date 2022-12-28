@@ -19,24 +19,6 @@
 		</div>
 	</div>
 </section>
-<section>
-	<div>
-		<h1>Blog</h1>
-		<div id="posts">
-		<!-- Posts will be displayed here -->
-		</div>
-		<!-- Only show the form if the user is signed in and has the "admin" or "editor" tag -->
-		<% if (user.isSignedIn && (user.tags.includes('admin') || user.tags.includes('editor'))) { %>
-		<form id="post-form">
-			<label for="title">Title:</label><br>
-			<input type="text" id="title" name="title"><br>
-			<label for="content">Content:</label><br>
-			<textarea id="content" name="content"></textarea><br>
-			<button type="submit">Post</button>
-		</form>
-		<% } %>
-	</div>
-</section>
 </body>
 <?php
     include_once 'includes/footer.php';
