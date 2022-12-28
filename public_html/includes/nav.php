@@ -18,10 +18,10 @@
 				    	<a class="nav-link" href="team.php">Team</a>
 						<li class="nav-item dropdown">
           					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Login/Register</a>
-          				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            				<li><button class="btn btn-outline-success me-2" type="button" href="#">Login</button></li>
+          				<ul class="dropdown-menu justify-content-center" aria-labelledby="navbarDropdown">
+            				<li><button class="btn btn-outline-success me-2 nav-link" type="button" href="#">Login</button></li>
             				<li><hr class="dropdown-divider"></li>
-            				<li><button class="btn btn-sm btn-outline-secondary" type="button" href="registration.php">Register</button></li>
+            				<li><button class="btn btn-sm btn-outline-secondary nav-link" type="button" href="registration.php">Register</button></li>
           				</ul>
 			    	</div>
 		    	</div>
