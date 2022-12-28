@@ -1,4 +1,7 @@
 <?php
+  require_once 'useraccounts/config.php';
+?>
+<?php
 	include_once 'includes/header.php';
 ?>
 <body>
