@@ -1,27 +1,28 @@
-<!--- Connect -->
-<hr>
-<div class="container-fluid padding">
-	<div class="row text-center padding">
-		<div class="col-12">
-			<h2>Connect With Me</h2>
-			<hr>
-			<script src="https://tryhackme.com/badge/282152"></script>
-		</div>
-		<div>
-			<!-- Facebook -->
-			<a style="color: #3b5998;" href="https://www.facebook.com/OwenKovalskiwebsite/"><i class="bi bi-facebook"></i></a>
-			<a style="color: #3b5998;" href="https://www.instagram.com/owen_kovalski_website/"><i class="bi bi-instagram"></i></a>
-			<a href="https://www.twitter.com/Owen_Kovalski/"><i class="bi bi-twitter"></i></a>
-			<a href="https://www.linkedin.com/in/owen-kovalski-597334123/"><i class="bi bi-linkedin"></i></a>
-			<!--- <a href="#"><i class="fab fa-google-plus-g"></i></a> --->
-			<!--- <a href="#"><i class="fab fa-youtube"></i></a> --->
-		</div>
-	</div>
-</div>
-</body>
-
 <!--- Footer -->
 <footer>
+<!--- Connect -->
+<hr>
+<section>
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-12">
+				<h2>Connect With Me</h2>
+				<hr>
+				<script src="https://tryhackme.com/badge/282152"></script>
+			</div>
+			<div>
+				<!-- Facebook -->
+				<a style="color: #3b5998;" href="https://www.facebook.com/OwenKovalskiwebsite/"><i class="bi bi-facebook"></i></a>
+				<a style="color: #3b5998;" href="https://www.instagram.com/owen_kovalski_website/"><i class="bi bi-instagram"></i></a>
+				<a href="https://www.twitter.com/Owen_Kovalski/"><i class="bi bi-twitter"></i></a>
+				<a href="https://www.linkedin.com/in/owen-kovalski-597334123/"><i class="bi bi-linkedin"></i></a>
+				<!--- <a href="#"><i class="fab fa-google-plus-g"></i></a> --->
+				<!--- <a href="#"><i class="fab fa-youtube"></i></a> --->
+			</div>
+		</div>
+	</div>
+</section>
+<section>
 	<div class="container-fluid padding" data-aos="fade-up"
 		data-aos-offset="200"
 		data-aos-delay="50"
@@ -55,6 +56,7 @@
 			</div>
 		</div>
 	</div>
+</section>
 </footer>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -1,6 +1,6 @@
 <?php
-  include_once '/includes/header.php';
-	include_once '/includes/css/style.css';
+  include_once '/header.php';
+	include_once '/css/style.css';
 ?>
   
   <div>
