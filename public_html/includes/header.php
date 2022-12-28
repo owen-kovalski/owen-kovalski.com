@@ -1,3 +1,6 @@
+<?php
+	require_once 'useraccounts/config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
