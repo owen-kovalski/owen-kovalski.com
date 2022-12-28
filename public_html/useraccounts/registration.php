@@ -6,6 +6,14 @@
 <body>
   
   <div>
+    <?php
+    if(isset($_POST['create'])){
+      echo 'User submitted';
+    }
+    ?>
+  </div>
+
+  <div>
     <form action="registration.php" method="post">
       <div class="container">
         <h1>Registration</h1>
