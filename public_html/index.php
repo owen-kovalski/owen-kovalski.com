@@ -3,10 +3,7 @@
 	include_once '/css/style.css';
 ?>
 
-<body>
-<?php
-    include_once '/nav.php';
-?>
+
 <!-- Introduction -->
 <br>
 <br>
