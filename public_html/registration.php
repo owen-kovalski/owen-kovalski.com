@@ -1,5 +1,6 @@
 <?php
 	include_once 'includes/header.php';
+  require_once('useraccounts/config.php');
 ?>
 <body>
 <?php
