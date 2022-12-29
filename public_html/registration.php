@@ -9,7 +9,7 @@
 <section class="d-flex justify-content-center">
   <div>
     <form action="registration.php" method="post">
-      <div class="container">
+      <div class="container d-flex align-content-center">
         <div class="row">
           <div class="col-sm-3">
             <h1>Sign Up</h1>
