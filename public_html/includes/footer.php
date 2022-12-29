@@ -3,7 +3,7 @@
 <!--- Connect -->
 <hr>
 <section>
-	<div class="container-fluid padding">
+	<div class="connect container-fluid padding">
 		<div class="row text-center padding">
 			<div class="col-12">
 				<h2>Connect With Me</h2>
@@ -13,11 +13,14 @@
 			<div>
 				<!-- Facebook -->
 				<a style="color: #3b5998;" href="https://www.facebook.com/OwenKovalskiwebsite/"><i class="bi bi-facebook"></i></a>
+				<!-- Instagram -->
 				<a style="color: #3b5998;" href="https://www.instagram.com/owen_kovalski_website/"><i class="bi bi-instagram"></i></a>
+				<!-- Twitter -->
 				<a href="https://www.twitter.com/Owen_Kovalski/"><i class="bi bi-twitter"></i></a>
+				<!-- LinkedIn -->
 				<a href="https://www.linkedin.com/in/owen-kovalski-597334123/"><i class="bi bi-linkedin"></i></a>
-				<!--- <a href="#"><i class="fab fa-google-plus-g"></i></a> --->
-				<!--- <a href="#"><i class="fab fa-youtube"></i></a> --->
+				<!-- Youtube -->
+				<!--- <a href="#"><i class="bi bi-youtube"></i></a> --->
 			</div>
 		</div>
 	</div>
