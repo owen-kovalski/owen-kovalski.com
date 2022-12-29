@@ -19,13 +19,13 @@
           <form>
             <div class="input-group mb-3">
               <div class="input-group-append">
-                <span class="input-group-text"><i class="fi fi-sr-mode-portrait"></i></span>
+                <span class="input-group-text"><i class="bi bi-person-bounding-box"></i></span>
               </div>
               <input type="text" name="username" id="username" class="form-control input_user" required>
             </div>
             <div class="input-group mb-2">
               <div class="input-group-append">
-                <span class="input-group-text"><i class="fi fi-ss-lock"></i></span>
+                <span class="input-group-text"><i class="bi bi-shield-lock-fill"></i></span>
               </div>
               <input type="password" name="password" id="password" class="form-control input_pass" required>
             </div>
@@ -51,6 +51,11 @@
       </div>
   </div>
 </div>
+<script>
+  $(function(){
+    alert('alert');
+  });
+</script>
 </body>
 <?php
   include_once 'includes/footer.php';
