@@ -26,7 +26,7 @@
             </div>
             <div class="input-group mb-2">
               <div class="input-group-append">
-                <span class="input-group-text"><i class="fi fi-sr-mode-portrait"></i></span>
+                <span class="input-group-text"><i class="fi fi-ss-lock"></i></span>
               </div>
               <input type="text" name="password" id="password" class="form-control input_pass" required>
             </div>
