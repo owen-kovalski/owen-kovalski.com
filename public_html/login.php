@@ -53,7 +53,9 @@
 </div>
 <script>
   $(function(){
-    alert('alert');
+    $('#login').click(function(e){
+      alert('working');
+    });
   });
 </script>
 </body>
