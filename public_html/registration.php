@@ -24,7 +24,7 @@
             <label for="email"><b>Email Address</b><b style="color: red;"> *</b></label>
             <input class="form-control" id="email" type="email" name="email" required>
 
-            <label for="phonenumber"><b>Phone Number</b></label>
+            <label for="phonenumber"><b>Phone Number</b><b class="text-muted"> (Optional)</b></label>
             <input class="form-control" id="phonenumber" type="text" name="phonenumber">
 
             <label for="password"><b>Password</b><b style="color: red;"> *</b></label>
