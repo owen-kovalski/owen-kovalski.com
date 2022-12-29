@@ -11,7 +11,7 @@
     <form action="registration.php" method="post">
       <div class="container">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-sm-3 justify-content-center">
             <h1>Sign Up</h1>
             <p>Please ensure all information is correct before submitting.</p>
             <hr class="mb-3">
