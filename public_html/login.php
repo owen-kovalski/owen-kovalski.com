@@ -64,12 +64,15 @@
         e.preventDefault();
 
         $.ajax({
-          type: 'POST',
-          url: 'userlogin/jslogin.php',
-          data: {username: username, password: password},
-          success: function(data){
-            alert(data);
-          },
+				type: 'POST',
+				url: 'userlogin/jslogin.php',
+				data:  {username: username, password: password},
+				success: function(data){
+					alert(data);
+					if($.trim(data) === "1"){
+						setTimeout(' window.location.href =  "index.php"', 1000);
+					}
+				},
           error: function(data){
             alert('Incorrect Username or Password');
           }
