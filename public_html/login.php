@@ -13,7 +13,7 @@
       <div class="user_card">
         <div class="d-flex justify-content-center">
           <div class="brand_logo_container">
-            <img src="img/logo2.png" class="brand_logo" alt="Login Logo">
+            <img src="userlogin/img/logo2.png" class="brand_logo" alt="Login Logo">
           </div>
         </div>
       </div>
