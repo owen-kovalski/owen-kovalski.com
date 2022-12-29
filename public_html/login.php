@@ -20,13 +20,13 @@
           <form>
             <div class="input-group mb-3">
               <div class="input-group-append">
-                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                <span class="input-group-text"><i class="fa-duotone fa-user"></i></span>
               </div>
               <input type="text" name="username" id="username" class="form-control input_user" required>
             </div>
             <div class="input-group mb-2">
               <div class="input-group-append">
-                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                <span class="input-group-text"><i class="fa-duotone fa-user"></i></span>
               </div>
               <input type="text" name="password" id="password" class="form-control input_pass" required>
             </div>
