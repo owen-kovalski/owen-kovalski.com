@@ -3,7 +3,7 @@
 <!--- Connect -->
 <hr>
 <section>
-	<div class="connect container-fluid padding">
+	<div class="container-fluid padding">
 		<div class="row text-center padding">
 			<div class="col-12">
 				<h2>Connect With Me</h2>
