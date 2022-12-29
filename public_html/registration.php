@@ -9,8 +9,8 @@
 <section>
   <div>
     <form action="registration.php" method="post">
-      <div class="container mtb-1">
-        <div class="row">
+      <div class="container">
+        <div class="row mt-1 mb-1">
           <div class="col-sm-3 mx-auto">
             <h1>Sign Up</h1>
             <p>Please ensure all information is correct before submitting.</p>
