@@ -12,22 +12,22 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-            <h1>Register</h1>
+            <h1>Sign Up</h1>
             <p>Please ensure all information is correct before submitting.</p>
             <hr class="mb-3">
-            <label for="firstname"><b>First Name</b></label>
+            <label for="firstname"><b>First Name</b><b style="text-color: red;">*</b></label>
             <input class="form-control" id="firstname" type="text" name="firstname" required>
 
-            <label for="lastname"><b>Last Name</b></label>
+            <label for="lastname"><b>Last Name</b><b style="text-color: red;">*</b></label>
             <input class="form-control" id="lastname" type="text" name="lastname" required>
 
-            <label for="email"><b>Email Address</b></label>
+            <label for="email"><b>Email Address</b><b style="text-color: red;">*</b></label>
             <input class="form-control" id="email" type="email" name="email" required>
 
             <label for="phonenumber"><b>Phone Number</b></label>
-            <input class="form-control" id="phonenumber" type="text" name="phonenumber" required>
+            <input class="form-control" id="phonenumber" type="text" name="phonenumber">
 
-            <label for="password"><b>Password</b></label>
+            <label for="password"><b>Password</b><b style="text-color: red;">*</b></label>
             <input class="form-control" id="password" type="password" name="password" required>
             <hr class="mb-3">
             <input class="btn btn-primary" type="submit" id='register' name="create" value="Sign Up">
