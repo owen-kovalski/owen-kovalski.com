@@ -54,7 +54,27 @@
 <script>
   $(function(){
     $('#login').click(function(e){
-      alert('working');
+      
+        var valid = this.form.checkValidity();
+        if(valid){
+          var username = $('#username').val();
+          var password = $('#password').val();
+        }
+
+        e.prevenDefault();
+
+        $.ajax({
+          type: 'POST',
+          url: 'jslogin.php',
+          data: {username: username, password: password},
+          success: function(data){
+            alert('success');
+          },
+          error: function(data){
+            alert('Incorrect Username or Password');
+          }
+        });
+
     });
   });
 </script>
