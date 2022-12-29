@@ -61,11 +61,11 @@
           var password = $('#password').val();
         }
 
-        e.prevenDefault();
+        e.preventDefault();
 
         $.ajax({
           type: 'POST',
-          url: 'jslogin.php',
+          url: 'userlogin/jslogin.php',
           data: {username: username, password: password},
           success: function(data){
             alert('success');
