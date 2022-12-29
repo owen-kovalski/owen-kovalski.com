@@ -28,7 +28,7 @@
               <div class="input-group-append">
                 <span class="input-group-text"><i class="fi fi-ss-lock"></i></span>
               </div>
-              <input type="text" name="password" id="password" class="form-control input_pass" required>
+              <input type="password" name="password" id="password" class="form-control input_pass" required>
             </div>
             <div class="form-group">
               <div class="custom-control custom-checkbox">
