@@ -6,12 +6,12 @@
 <?php
   include_once 'includes/nav.php';
 ?>
-<section class="d-flex justify-content-center">
+<section>
   <div>
     <form action="registration.php" method="post">
-      <div class="container d-flex align-content-center">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-sm-3 align-self-center">
             <h1>Sign Up</h1>
             <p>Please ensure all information is correct before submitting.</p>
             <hr class="mb-3">
