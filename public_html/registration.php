@@ -6,10 +6,10 @@
 <?php
   include_once 'includes/nav.php';
 ?>
-<section>
+<section class="d-flex justify-content-center">
   <div>
     <form action="registration.php" method="post">
-      <div class="container d-flex justify-content-center">
+      <div class="container">
         <div class="row">
           <div class="col-sm-3">
             <h1>Sign Up</h1>
