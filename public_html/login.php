@@ -2,13 +2,12 @@
 	include_once 'includes/header.php';
     require_once('userlogin/config.php');
 ?>
-<link rel="stylesheet" type="text/css" href="userlogin/css/styles.css">
 <body>
 <?php
   include_once 'includes/nav.php';
 ?>
 
-<div class="dcontainer h-100">
+<div class="container h-100">
   <div class="d-flex justify-content-center h-100">
       <div class="user_card">
         <div class="d-flex justify-content-center">
@@ -38,7 +37,7 @@
             </div>
           </form>
         </div>
-        <div class="d-flex justify-content-center mt-3 login-container">
+        <div class="d-flex justify-content-center mt-3 login_container">
           <button type="button" name="button" id="login" class="btn login_btn">Login</button>
         </div>
         <div class="mt-4">
