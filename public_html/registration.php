@@ -10,7 +10,7 @@
   <div>
     <form action="registration.php" method="post">
       <div class="container">
-        <div class="row align-self-center">
+        <div class="row ms-auto align-self-center">
           <div class="col-sm-auto align-self-center">
             <h1>Sign Up</h1>
             <p>Please ensure all information is correct before submitting.</p>
