@@ -1,6 +1,6 @@
 <?php
 	include_once 'includes/header.php';
-  require_once('useraccounts/config.php');
+  	require_once('useraccounts/config.php');
 
   $errors = array();
 
@@ -100,13 +100,27 @@
   			<div class="alert alert-danger"><?php echo $error['email']; ?></div>
 			<?php } ?>
 
-            <label for="phonenumber"><b>Phone Number</b><b class="text-muted"> (Optional)</b></label>
-            <input class="form-control" id="phonenumber" type="text" name="phonenumber">
+			<label for="phonenumber"><b>Phone Number</b><b class="text-muted"> (Optional)</b></label>
+			<input class="form-control" id="phonenumber" type="text" name="phonenumber">
+			<?php
+			if (isset($_POST['phonenumber'])) {
+  				$phonenumber = $_POST['phonenumber'];
+  				if (!preg_match("/^[0-9]{10}$/", $phonenumber)) {
+    			$error['phonenumber'] = "Invalid phone number. Please enter a 10-digit phone number.";
+  					}
+			}
+			if (isset($error['phonenumber'])) {
+  				echo '<div class="alert alert-danger">' . $error['phonenumber'] . '</div>';
+			}
+			?>
 
-            <label for="password"><b>Password</b><b style="color: red;"> *</b></label>
-            <input class="form-control" id="password" type="password" name="password" required>
-            <hr class="mb-3">
-            <input class="btn btn-primary" type="submit" id='register' name="create" value="Sign Up">
+			<label for="password"><b>Password</b><b style="color: red;"> *</b></label>
+			<input class="form-control" id="password" type="password" name="password" required>
+			<?php if(isset($error['password'])) { ?>
+    			<div class="alert alert-danger"><?php echo $error['password']; ?></div>
+			<?php } ?>
+			<hr class="mb-3">
+			<input class="btn btn-primary" type="submit" id="register" name="create" value="Sign Up">
           </div>
         </div>
       </div>
