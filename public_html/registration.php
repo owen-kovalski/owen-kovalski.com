@@ -120,7 +120,7 @@
     			<div class="alert alert-danger"><?php echo $error['password']; ?></div>
 			<?php } ?>
 			<hr class="mb-3">
-			<input class="btn btn-primary" type="submit" id="register" name="create" value="Sign Up">
+			<input class="btn btn-primary" type="submit" id="register" name="create" value="Sign Up" onclick="submitForm()">
           </div>
         </div>
       </div>
@@ -166,6 +166,12 @@
 			}
 		});		
 	});	
+</script>
+<script type="text/javascript">
+  function submitForm() {
+    var form = document.getElementById('registration-form');
+    form.submit();
+  }
 </script>
 </body> 
 <?php
