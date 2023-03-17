@@ -1,7 +1,6 @@
 <?php
 	include_once 'includes/header.php';
   require_once('userlogin/config.php');
-  require_once('userlogin/hashing.php');
 ?>
 <body>
 <?php
