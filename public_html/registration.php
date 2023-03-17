@@ -75,7 +75,7 @@
 ?>
 <section>
   <div>
-    <form action="registration.php" method="post">
+    <form id="registration-form" action="registration.php" method="post">
       <div class="container">
         <div class="row mt-5 mb-5">
           <div class="col-sm-3 mx-auto">
