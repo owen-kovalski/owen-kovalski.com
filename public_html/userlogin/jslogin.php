@@ -3,7 +3,7 @@ session_start();
 require_once('config.php');
 
 $username = $_POST['username'];
-$password = $_POST['password'];
+$password = sha1($_POST['password']);
 
 $sql = "SELECT * FROM users WHERE email = ? LIMIT 1";
 $stmtselect = $db->prepare($sql);
