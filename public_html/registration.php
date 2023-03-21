@@ -1,8 +1,10 @@
 <?php
 	include_once 'includes/header.php';
-  	require_once('useraccounts/config.php');
+  require_once('useraccounts/config.php');
 
   $errors = array();
+  error_reporting(E_ALL);
+  ini_set('display_errors', 1);
 
   if (isset($_POST['create'])) {
 
@@ -48,6 +50,9 @@
     if (empty($errors)) {
 
       // Add user to database
+      $password = password_hash($password, PASSWORD_DEFAULT); 
+      // Encrypt password before storing in database (security purpose)
+
       $sql = "INSERT INTO users (firstname, lastname, email, phonenumber, password) VALUES (?, ?, ?, ?, ?)";
       $stmt = $db->prepare($sql);
       $result = $stmt->execute([$firstname, $lastname, $email, $phonenumber, $password]);
@@ -120,8 +125,15 @@
     			<div class="alert alert-danger"><?php echo $error['password']; ?></div>
 			<?php } ?>
 			<hr class="mb-3">
+
+      //Submit button stores user information in database and redirects to login page if successful or displays error message if unsuccessful
 			<input class="btn btn-primary" type="submit" id="register" name="create" value="Sign Up" onclick="submitForm()">
-          </div>
+      <?php if ($result) {
+          echo "Data submitted successfully!";
+        } else {
+          echo "Error submitting data!";
+        } ?>
+        </div>
         </div>
       </div>
     </form>
