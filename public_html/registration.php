@@ -131,6 +131,7 @@ if (isset($_POST['create'])) {
 					url: 'useraccounts/process.php',
 					data: $('#registration-form').serialize(),
 					success: function(data){
+            console.log(data); // Add this line to log the response from the server
 						Swal.fire({
 							title: 'Successful',
 							text: data,
@@ -139,6 +140,7 @@ if (isset($_POST['create'])) {
 						document.getElementById("registration-form").reset();
 					},
 					error: function(data){
+            console.log(data); // Add this line to log the response from the server
 						Swal.fire({
 							title: 'Errors',
 							text: 'There were errors while saving the data.',
