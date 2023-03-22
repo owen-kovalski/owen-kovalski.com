@@ -1,0 +1,5 @@
+{
+    "require": {
+        "paragonie/password-argon2": "^2.0"
+    }
+}
