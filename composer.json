@@ -1,5 +1,5 @@
 {
     "require": {
-        "paragonie/password-argon2-refiner": "^2.0"
+        "paragonie/argon2-refiner": "^2.0"
     }
 }
