@@ -1,9 +1,9 @@
 <?php
 include_once 'includes/header.php';
 require_once 'useraccounts/config.php';
-// require_once('/home/okovalski/web/vendor/autoload.php');
+require_once('/home/okovalski/web/vendor/autoload.php');
 
-use ParagonIE\PasswordLib\PasswordLib;
+use Passlib\Hash;
 
 $errors = array();
 
@@ -48,8 +48,8 @@ if (isset($_POST['create'])) {
   }
 
   if (empty($errors)) {
-    $passwordlib = new PasswordLib();
-    $password_hash = $passwordlib->createPasswordHash($password, PASSWORD_ARGON2ID);
+    $hasher = Hash::argon2id();
+    $password_hash = $hasher->hash($password);
 
     // Add user to database
     $sql = "INSERT INTO users (firstname, lastname, email, phonenumber, password) VALUES (?, ?, ?, ?, ?)";
