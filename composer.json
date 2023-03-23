@@ -1,5 +1,7 @@
 {
     "require": {
-        "paragonie/argon2-refiner": "^2.0"
+        "ircmaxell/password-compat": "^1.0",
+        "passlib/passlib": "^1.7"
     }
 }
+

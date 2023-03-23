@@ -3,7 +3,7 @@ include_once 'includes/header.php';
 require_once 'useraccounts/config.php';
 require_once('/home/okovalski/web/vendor/autoload.php');
 
-use Passlib\Hash;
+use passlib\hash\argon2i;
 
 $errors = array();
 
@@ -51,22 +51,25 @@ if (isset($_POST['create'])) {
     $hasher = Hash::argon2id();
     $password_hash = $hasher->hash($password);
 
+    // Get the generated salt
+    $salt = $hasher->getSalt();
+
     // Add user to database
-    $sql = "INSERT INTO users (firstname, lastname, email, phonenumber, password) VALUES (?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO users (firstname, lastname, email, phonenumber, password, salt) VALUES (?, ?, ?, ?, ?, ?)";
     $stmt = $db->prepare($sql);
-    $stmt->bind_param('sssss', $firstname, $lastname, $email, $phonenumber, $password_hash);
+    $stmt->bind_param('ssssss', $firstname, $lastname, $email, $phonenumber, $password_hash, $salt);
     $result = $stmt->execute();
 
     if ($result) {
-      echo "<script>
-              Swal.fire({
+        echo "<script>
+            Swal.fire({
                 'title': 'Successful',
                 'text': 'User registered successfully',
                 'type': 'success'
-              });
+            });
             </script>";
     } else {
-      $errors[] = "Failed to add user to database";
+        $errors[] = "Failed to add user to database";
     }
   }
 }
