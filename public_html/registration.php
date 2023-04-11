@@ -2,7 +2,8 @@
 include_once 'includes/header.php';
 require_once 'useraccounts/config.php';
 require_once('../vendor/autoload.php');
-
+?>
+<?php
 use ParagonIE\Argon2Refiner\ParameterRecommender;
 
 $refiner = (new ParameterRecommender(125))
@@ -13,7 +14,8 @@ $refiner = (new ParameterRecommender(125))
     ->setTolerance(25);
 
 $results = $refiner->runBenchmarks();
-
+?>
+<?php
 $errors = array();
 
 if (isset($_POST['create'])) {
