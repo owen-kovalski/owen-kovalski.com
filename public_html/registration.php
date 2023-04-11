@@ -3,7 +3,16 @@ include_once 'includes/header.php';
 require_once 'useraccounts/config.php';
 require_once('../vendor/autoload.php');
 
-use passlib\hash\argon2i;
+use ParagonIE\Argon2Refiner\ParameterRecommender;
+
+$refiner = (new ParameterRecommender(125))
+    ->setMinMemory(1 << 20)
+    ->setMaxMemory(1 << 31)
+    ->setMinTime(2)
+    ->setMaxTime(4)
+    ->setTolerance(25);
+
+$results = $refiner->runBenchmarks();
 
 $errors = array();
 
