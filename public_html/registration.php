@@ -1,7 +1,7 @@
 <?php
 include_once 'includes/header.php';
 require_once 'useraccounts/config.php';
-// require_once('../vendor/autoload.php');
+require_once('/home/okovalski/web/owen-kovalski.com/vendor/autoload.php');
 ?>
 <?php
 use ParagonIE\Argon2Refiner\ParameterRecommender;
