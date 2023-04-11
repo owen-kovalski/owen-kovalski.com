@@ -1,7 +1,7 @@
 {
     "require": {
-        "ircmaxell/password-compat": "^1.0",
-        "passlib/passlib": "^1.7"
+        "phpunit/phpunit": "^8|^9",
+        "vimeo/psalm": "^3|^4"
     }
 }
 
