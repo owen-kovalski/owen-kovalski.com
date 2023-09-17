@@ -1,7 +1,7 @@
 <?php
 include_once 'includes/header.php';
 require_once 'useraccounts/config.php';
-require_once('/home/okovalski/web/owen-kovalski.com/vendor/autoload.php');
+require_once 'password_utils.php'; // Include the password hashing utility file
 ?>
 <?php
 use ParagonIE\Argon2Refiner\ParameterRecommender;
@@ -51,38 +51,37 @@ if (isset($_POST['create'])) {
     $errors[] = "Invalid phone number format";
   }
 
-  // Validate password
-  if (empty($password)) {
-    $errors[] = "Password is required";
-  } else if (strlen($password) < 8) {
-    $errors[] = "Password must be at least 8 characters long";
-  }
-
-  if (empty($errors)) {
-    $hasher = Hash::argon2id();
-    $password_hash = $hasher->hash($password);
-
-    // Get the generated salt
-    $salt = $hasher->getSalt();
-
-    // Add user to database
-    $sql = "INSERT INTO users (firstname, lastname, email, phonenumber, password, salt) VALUES (?, ?, ?, ?, ?, ?)";
-    $stmt = $db->prepare($sql);
-    $stmt->bind_param('ssssss', $firstname, $lastname, $email, $phonenumber, $password_hash, $salt);
-    $result = $stmt->execute();
-
-    if ($result) {
-        echo "<script>
-            Swal.fire({
-                'title': 'Successful',
-                'text': 'User registered successfully',
-                'type': 'success'
-            });
-            </script>";
-    } else {
-        $errors[] = "Failed to add user to database";
+ // Validate password
+    if (empty($password)) {
+        $errors[] = "Password is required";
+    } else if (strlen($password) < 8) {
+        $errors[] = "Password must be at least 8 characters long";
     }
-  }
+
+    if (empty($errors)) {
+        // Call the hashPassword function to hash the password
+        $passwordData = hashPassword($password);
+        $password_hash = $passwordData['password_hash'];
+        $salt = $passwordData['salt'];
+
+        // Add user to database
+        $sql = "INSERT INTO users (firstname, lastname, email, phonenumber, password, salt) VALUES (?, ?, ?, ?, ?, ?)";
+        $stmt = $db->prepare($sql);
+        $stmt->bind_param('ssssss', $firstname, $lastname, $email, $phonenumber, $password_hash, $salt);
+        $result = $stmt->execute();
+
+        if ($result) {
+            echo "<script>
+                Swal.fire({
+                    'title': 'Successful',
+                    'text': 'User registered successfully',
+                    'type': 'success'
+                });
+                </script>";
+        } else {
+            $errors[] = "Failed to add user to the database";
+        }
+    }
 }
 ?>
 
